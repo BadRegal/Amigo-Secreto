@@ -160,3 +160,9 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+    }
+}
